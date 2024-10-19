@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>DATA DE NASCIMENTO</title>
+    <style type=text/css>
+      p{text-align: center; color: bisque; background-color: black; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;}
+      h1{text-align: center; color: bisque; background-color: black; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;}
+    </style>
+</head>
+
+<body>
+    <h1>Preencha sua Data de Nascimento:</h1>
+    <label for="dataNascimento">Data de Nascimento:</label>
+    <input type="date" id="dataNascimento">
+    <button onclick="calcularIdade()">Calcular Idade</button>
+    <p id="resultado"></p>
+<script>
+    function calcularIdade() {
+        const dataNascimento = new Date(document.getElementById('dataNascimento').value);
+        const hoje = new Date();
+        let diferencaEmMilissegundos = hoje - dataNascimento;
+        let idade = Math.floor(diferencaEmMilissegundos / (1000 * 60 * 60 * 24 * 365.25));
+        document.getElementById('resultado').textContent = `Você tem ${idade} anos.`;
+    }
+</script>
+</body>
+</html>    
