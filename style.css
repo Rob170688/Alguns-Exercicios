@@ -1,0 +1,67 @@
+.banner {
+    height: 80px;
+    border: 6px inset black;
+    background: rgb(34, 22, 199);
+    h1{text-align: center; color: rgb(248, 245, 245); font-style: oblique;}
+}
+.menu {
+    float: left;
+    min-height: 300px;
+    width: 200px;
+    border: 6px inset black;
+    background: rgb(113, 189, 214);
+    ul{list-style-type: upper-roman;} 
+    a:link {color: rgb(36, 128, 0)};
+    a:hover {color: rgb(255, 251, 0)};
+    a:visited {color: rgb(255, 0, 140)};
+    a{font-size: larger ; font-style: italic;}
+}
+
+.conteudo {
+    min-height: 300px;
+    border: 6px inset black;
+    background: rgb(66, 147, 173);
+    h3{text-align: center; color: rgb(29, 24, 24); font-size: x-large; font-style: oblique;}
+    p{font-style: oblique;}
+}
+
+.rodape {
+    height: 170px;
+    border: 6px inset black;
+    background: rgb(18, 0, 100);
+    h2{text-align: center; color: antiquewhite; font-size: x-large; font-style: normal;}
+    p{color: antiquewhite; font-style: normal;}
+}
+
+.produto {
+    height: auto;
+    border: 6px inset black;
+    background: rgb(0, 0, 104);
+    h3{text-align: center; color: rgb(162, 162, 177); font-size: xx-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    img {display: block; margin: 0 auto;}
+    p{text-align: center; color: rgb(162, 162, 177); font-size: x-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+}
+
+.sobre {
+    min-height: 200px;
+    border: 6px inset black;
+    background: rgb(0, 0, 104);
+    h1{text-align: center; color: rgb(162, 162, 177); font-size: xx-large; font-style: italic;}
+    p{color: rgb(162, 162, 177); font-style: italic;}
+}
+
+.lista {
+    min-height: 300px;
+    border: 6px inset black;
+    background: rgb(0, 0, 104);
+    h3{color: rgb(162, 162, 177); font-style: oblique; font-size: larger;}
+    ul{color: rgb(162, 162, 177); font-style: oblique;}
+}
+
+.formulario {
+    height: auto;
+    border: 6px inset black;
+    background: rgb(0, 0, 104);
+    h1{text-align: center; color: rgb(162, 162, 177); font-size: xx-large; font-style: oblique;}
+    p{text-align: center; color: rgb(162, 162, 177); font-size: large; font-style: oblique;}   
+}
